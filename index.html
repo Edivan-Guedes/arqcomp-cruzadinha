@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081a20">
+  <meta name="description" content="Sheikah Archive: dois desafios de Arquitetura Computacional com a estética tecnológica ancestral de Hyrule.">
+  <title>Sheikah Archive | Cruzadinha & Termo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-a" aria-hidden="true"></div><div class="ambient ambient-b" aria-hidden="true"></div>
+  <div class="interface-frame" aria-hidden="true"><span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span></div>
+  <div class="slate-rune-rail" aria-hidden="true"><span class="rune-top">◈</span><span class="rune active">⌘</span><span class="rune">◇</span><span class="rune">◉</span><span class="rune">✧</span><span class="rune">⌁</span><span class="rune-bottom">▾</span></div>
+  <div class="slate-tech" aria-hidden="true"><span class="tech-circle"></span><span class="tech-ring"></span></div>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" id="brandHome" type="button" aria-label="Voltar ao menu principal">
+        <span class="brand-glyph" aria-hidden="true"><svg viewBox="0 0 80 80" fill="none"><path d="M8 30 Q40 -2 72 30 Q40 69 8 30Z" stroke="currentColor" stroke-width="3"/><circle cx="40" cy="30" r="13" stroke="currentColor" stroke-width="3"/><circle cx="40" cy="30" r="5" fill="currentColor"/><path d="M40 43V73M27 48l13 11 13-11M29 55l11 9 11-9M40 4v10" stroke="currentColor" stroke-width="3"/></svg></span>
+        <span class="brand-text"><strong>SHEIKAH <em>ARCHIVE</em></strong><small>PEDRA SHEIKAH · ARQUIVO ANCESTRAL</small></span>
+      </button>
+      <div class="header-right"><span class="signal"><i></i> PEDRA ATIVADA</span><span class="header-divide"></span><span class="terminal-id">HYRULE // ARQUIVO 016</span></div>
+    </header>
+
+    <main>
+      <section id="screen-home" class="screen home-screen active" aria-labelledby="homeTitle">
+        <div class="home-heading"><span class="ancient-caption">ARCHIVE ID 0001 · COMPENDIUM · RUNES</span><div class="eyebrow"><span class="line"></span> SISTEMA SHEIKAH // AUTENTICAÇÃO CONCLUÍDA <span class="line"></span></div>
+          <div class="hero-emblem" aria-hidden="true"><svg viewBox="0 0 140 140" fill="none"><circle cx="70" cy="70" r="63" stroke="currentColor" stroke-width="1" stroke-dasharray="3 9"/><circle cx="70" cy="70" r="51" stroke="currentColor" stroke-width="1" opacity=".5"/><path d="M19 56Q70 6 121 56Q70 118 19 56Z" stroke="currentColor" stroke-width="4"/><circle cx="70" cy="56" r="24" stroke="currentColor" stroke-width="4"/><circle cx="70" cy="56" r="9" fill="currentColor"/><path d="M70 80v35m-18-29 18 14 18-14m-29 15 11 9 11-9M70 8v12" stroke="currentColor" stroke-width="4"/></svg></div>
+          <p class="hero-kicker">UMA MENSAGEM ATRAVÉS DO TEMPO</p><h1 id="homeTitle">SHEIKAH <span>ARCHIVE</span></h1><p class="hero-description">Link, a Pedra Sheikah reconheceu sua presença. Os dados de uma antiga pesquisa foram dispersos. Recupere os registros para despertar o conhecimento adormecido.</p>
+        </div>
+        <div class="story-dialogue"><div class="dialogue-avatar" aria-hidden="true">✧</div><div class="dialogue-body"><span class="dialogue-speaker">VOZ DA PRINCESA · TRANSMISSÃO ANCESTRAL</span><p>“Link... você consegue me ouvir? Estes arquivos guardam segredos sobre o funcionamento de antigas máquinas. Escolha um módulo e restaure as informações perdidas.”</p></div><span class="dialogue-pulse" aria-hidden="true">▾</span></div>
+        <div class="mode-grid">
+          <button class="mode-card" id="openCrossword" type="button"><span class="card-corner tr"></span><span class="card-corner bl"></span>
+            <span class="mode-card-header"><span class="mode-index">RUNA 01</span><span class="mode-badge">16 REGISTROS</span></span>
+            <span class="mode-art crossword-art" aria-hidden="true"><span class="m-row"><i></i><i class="lit">C</i><i class="lit">P</i><i class="lit">U</i><i></i></span><span class="m-row"><i></i><i class="lit">A</i><i></i><i></i><i></i></span><span class="m-row"><i class="lit">F</i><i class="lit">L</i><i class="lit">A</i><i class="lit">S</i><i class="lit">H</i></span><span class="m-row"><i></i><i class="lit">H</i><i></i><i></i><i></i></span></span>
+            <span class="mode-body"><span class="mode-title">MAPA DE RUNAS <span class="arrow">↗</span></span><span class="mode-description">Link, alinhe os símbolos do mapa. Revele os 16 conhecimentos que conectam os circuitos ancestrais.</span><span class="mode-action">ATIVAR RUNA <span>→</span></span></span>
+          </button>
+          <button class="mode-card" id="openTerm" type="button"><span class="card-corner tr"></span><span class="card-corner bl"></span>
+            <span class="mode-card-header"><span class="mode-index">RUNA 02</span><span class="mode-badge">6 TENTATIVAS</span></span>
+            <span class="mode-art termo-art" aria-hidden="true"><span class="m-row"><i class="found">C</i><i class="wrong-pos">A</i><i class="off">C</i><i class="found">H</i><i class="found">E</i></span><span class="m-row"><i class="found">C</i><i class="found">A</i><i class="found">C</i><i class="found">H</i><i class="found">E</i></span><span class="m-row"><i></i><i></i><i></i><i></i><i></i></span></span>
+            <span class="mode-body"><span class="mode-title">SANTUÁRIO DOS CÓDIGOS <span class="arrow">↗</span></span><span class="mode-description">Uma runa foi selada. Interprete os sinais e descubra o termo oculto em seis tentativas.</span><span class="mode-action">ATIVAR RUNA <span>→</span></span>
+          </button>
+        </div><div class="home-footer"><span>◈ 16 TERMOS DE ARQUITETURA COMPUTACIONAL</span><span>PROJETADO PARA DESKTOP · HTML / CSS / JS</span></div>
+      </section>
+
+      <section id="screen-crossword" class="screen game-screen" aria-labelledby="crosswordTitle" hidden>
+        <div class="page-heading"><button class="back-button" type="button" data-home><span>←</span> MENU PRINCIPAL</button><span class="page-kicker">RUNA 01 / 02</span></div>
+        <div class="game-heading"><div><p class="eyebrow left">DECIFRANDO OS REGISTROS</p><h2 id="crosswordTitle">MAPA DE <span>RUNAS</span></h2><p class="section-description">Link, os registros estão fragmentados. Complete cada sequência de símbolos para reconstruir o mapa.</p></div><div class="score-panel"><div class="score-top">REGISTROS RESTAURADOS <strong id="crossScore">00 <span>/ 16</span></strong></div><div class="progress-rail"><span id="crossProgress"></span></div></div></div>
+        <div class="cross-layout">
+          <div class="board-panel sheikah-panel"><div class="panel-top"><span>◈ CARTOGRAFIA SHEIKAH</span><span>GRADE 20 × 18</span></div><div class="board-scroller"><div class="map-watermark" aria-hidden="true">◈</div><div id="board" class="crossword-board" role="group" aria-label="Tabuleiro de cruzadinha"></div></div><div class="board-bottom"><span>CLICK: SELECIONAR / ALTERNAR SENTIDO</span><span>TECLADO: DIGITAR · BACKSPACE: APAGAR</span></div></div>
+          <aside class="clues-panel"><div class="clue-focus sheikah-panel"><div class="panel-top"><span>◈ INSCRIÇÃO ANTIGA</span><span id="focusDirection">HORIZONTAL</span></div><div class="focus-inner"><span class="focus-number" id="focusNumber">01</span><p id="focusClue">Selecione uma pista para começar.</p><span class="focus-length" id="focusLength">0 CARACTERES</span></div></div><div class="clue-list-panel sheikah-panel"><div class="panel-top"><span>◈ TÁBUAS DECIFRADAS</span><span>16 ENTRADAS</span></div><div class="clue-lists"><div class="clue-group"><h3>→ HORIZONTAIS <span id="horizontalCount"></span></h3><div id="horizontalClues" class="clue-list"></div></div><div class="clue-group"><h3>↓ VERTICAIS <span id="verticalCount"></span></h3><div id="verticalClues" class="clue-list"></div></div></div></div></aside>
+        </div>
+        <div class="game-controls"><button class="primary-button" id="checkCrossword" type="button">◈ ATIVAR VERIFICAÇÃO</button><button class="secondary-button" id="resetCrossword" type="button">↻ REINICIAR RUNAS</button><span id="crossFeedback" class="feedback" role="status" aria-live="polite">Aguardando decodificação…</span></div>
+      </section>
+
+      <section id="screen-term" class="screen game-screen" aria-labelledby="termTitle" hidden>
+        <div class="page-heading"><button class="back-button" type="button" data-home><span>←</span> MENU PRINCIPAL</button><span class="page-kicker">RUNA 02 / 02</span></div>
+        <div class="game-heading"><div><p class="eyebrow left">DESAFIO DO SANTUÁRIO</p><h2 id="termTitle">SANTUÁRIO <span>DOS CÓDIGOS</span></h2><p class="section-description">Link, este selo contém um termo de Arquitetura Computacional. Você tem seis tentativas para quebrá-lo.</p></div><div class="term-counter"><span>TENTATIVAS DISPONÍVEIS</span><strong id="triesLeft">06</strong></div></div>
+        <div class="term-layout"><div class="term-game sheikah-panel"><div class="panel-top"><span>◈ SELO DE DECIFRAÇÃO</span><span id="termMeta">CÓDIGO OCULTO</span></div><div class="term-main"><div class="term-hint"><span class="section-tag">INSCRIÇÃO DO MONUMENTO</span><p id="termClue"></p></div><div id="termBoard" class="term-board" role="group" aria-label="Tentativas do código secreto"></div><p id="termFeedback" class="term-feedback" role="status" aria-live="polite">Digite sua tentativa e pressione ENTER.</p><div id="termKeyboard" class="term-keyboard" aria-label="Teclado virtual"></div></div><div class="term-panel-footer">A–Z PARA DIGITAR <span>·</span> ENTER PARA CONFIRMAR <span>·</span> BACKSPACE PARA APAGAR</div></div>
+        <aside class="term-side"><div class="sheikah-panel legend-panel"><div class="panel-top"><span>◈ SIGNIFICADO DOS SINAIS</span></div><div class="legend-content"><div class="legend-item"><span class="legend-square green">A</span><div><strong>POSIÇÃO CORRETA</strong><p>A letra pertence ao código e está no lugar certo.</p></div></div><div class="legend-item"><span class="legend-square gold">B</span><div><strong>POSIÇÃO DIFERENTE</strong><p>A letra existe, mas em outra posição.</p></div></div><div class="legend-item"><span class="legend-square grey">C</span><div><strong>LETRA AUSENTE</strong><p>A letra não faz parte do código, ou já foi contabilizada.</p></div></div></div></div><div class="side-callout"><span>◈ MENSAGEM DA PEDRA</span><p>Link, procure nos registros de Arquitetura Computacional. O selo aceita letras sem espaços ou acentos. Um herói tem seis oportunidades.</p></div><button class="secondary-button wide" id="newTerm" type="button">↻ DESPERTAR OUTRO SELO</button></aside></div>
+      </section>
+    </main>
+    <div class="link-instruction" aria-live="polite"><span class="link-icon">✧</span><span id="linkMessage">Link, selecione uma runa para começar sua jornada.</span><span class="link-line"></span><span class="link-sigil">◈</span></div>
+    <footer class="site-footer"><span>SHEIKAH ARCHIVE <span class="muted">/ TERMINAL ACADÊMICO NÃO OFICIAL</span></span><span>SPTECH · ARQUITETURA COMPUTACIONAL · 2026</span></footer>
+  </div>
+  <dialog id="confirmDialog" class="confirm-dialog"><form method="dialog"><span class="section-tag">CONFIRMAÇÃO</span><h3 id="dialogTitle">Reiniciar partida?</h3><p id="dialogMessage">Seu progresso será perdido.</p><div class="dialog-actions"><button value="cancel" class="secondary-button">CANCELAR</button><button value="confirm" class="primary-button">CONFIRMAR</button></div></form></dialog>
+</body>
+</html>

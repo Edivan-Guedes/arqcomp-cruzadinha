@@ -1,0 +1,134 @@
+{
+  "width": 20,
+  "height": 18,
+  "words": [
+    {
+      "word": "DMA",
+      "x": 1,
+      "y": 0,
+      "dir": "V",
+      "number": 1,
+      "clue": "Mecanismo que transfere dados para a memória sem ocupar continuamente a CPU."
+    },
+    {
+      "word": "MEMORIADEMASSA",
+      "x": 9,
+      "y": 1,
+      "dir": "V",
+      "number": 2,
+      "clue": "Categoria que inclui SSD e HD para guardar arquivos permanentemente."
+    },
+    {
+      "word": "RAM",
+      "x": 0,
+      "y": 2,
+      "dir": "H",
+      "number": 3,
+      "clue": "Memória volátil que guarda aplicativos ativos e dados temporários."
+    },
+    {
+      "word": "MICROCONTROLADOR",
+      "x": 2,
+      "y": 2,
+      "dir": "V",
+      "number": 4,
+      "clue": "Chip que reúne processamento, memória e interfaces de entrada e saída."
+    },
+    {
+      "word": "CACHE",
+      "x": 5,
+      "y": 2,
+      "dir": "H",
+      "number": 5,
+      "clue": "Memória rápida que guarda cópias de informações acessadas recentemente."
+    },
+    {
+      "word": "ADDRESSBUS",
+      "x": 6,
+      "y": 2,
+      "dir": "V",
+      "number": 6,
+      "clue": "Conjunto de linhas que identifica qual posição de memória será acessada."
+    },
+    {
+      "word": "QUADCORE",
+      "x": 12,
+      "y": 5,
+      "dir": "V",
+      "number": 7,
+      "clue": "Processador que possui quatro núcleos de execução."
+    },
+    {
+      "word": "DATABUS",
+      "x": 14,
+      "y": 5,
+      "dir": "V",
+      "number": 8,
+      "clue": "Conjunto de linhas bidirecionais que transporta valores e instruções entre componentes."
+    },
+    {
+      "word": "EEPROM",
+      "x": 18,
+      "y": 5,
+      "dir": "V",
+      "number": 9,
+      "clue": "Memória não volátil que permite guardar configurações mesmo após desligar o dispositivo."
+    },
+    {
+      "word": "ROM",
+      "x": 1,
+      "y": 6,
+      "dir": "H",
+      "number": 10,
+      "clue": "Tipo de memória não volátil associado ao firmware de inicialização."
+    },
+    {
+      "word": "ULA",
+      "x": 12,
+      "y": 6,
+      "dir": "H",
+      "number": 11,
+      "clue": "Parte da CPU responsável por cálculos e operações lógicas."
+    },
+    {
+      "word": "DUALCORE",
+      "x": 12,
+      "y": 8,
+      "dir": "H",
+      "number": 12,
+      "clue": "Processador que possui dois núcleos de execução."
+    },
+    {
+      "word": "CPU",
+      "x": 16,
+      "y": 8,
+      "dir": "V",
+      "number": 13,
+      "clue": "Componente central que busca e executa instruções de um programa."
+    },
+    {
+      "word": "UC",
+      "x": 11,
+      "y": 9,
+      "dir": "H",
+      "number": 14,
+      "clue": "Parte da CPU que interpreta instruções e coordena os demais componentes."
+    },
+    {
+      "word": "REGISTRADORES",
+      "x": 2,
+      "y": 11,
+      "dir": "H",
+      "number": 15,
+      "clue": "Pequenas memórias internas da CPU que guardam valores em uso imediato."
+    },
+    {
+      "word": "FLASH",
+      "x": 0,
+      "y": 14,
+      "dir": "H",
+      "number": 16,
+      "clue": "Tecnologia regravável e não volátil utilizada para armazenar o programa no Arduino."
+    }
+  ]
+}
